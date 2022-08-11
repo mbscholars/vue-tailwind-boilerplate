@@ -1,9 +1,6 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view />
+  <vue-progress-bar></vue-progress-bar>
 </template>
 
 <style lang="scss">
