@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./registerServiceWorker";
@@ -22,3 +23,4 @@ const options = {
   
 createApp(App).use(store)
 .use(VueProgressBar, options).use(router).mount("#app");
+ 
